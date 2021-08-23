@@ -1,0 +1,170 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 1000px;
+}
+
+h2 {
+  letter-spacing: 8px;
+  font-weight: 200;
+}
+
+.left {
+  height: 1500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+
+.right {
+  height: 800px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.details {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  height: 16px;
+  width: 16px;
+}
+
+.addr {
+  display: flex;
+}
+.addr > * {
+  margin: 8px;
+}
+
+.email {
+  display: flex;
+}
+.email > * {
+  margin: 8px;
+}
+.contact {
+  display: flex;
+}
+.contact > * {
+  margin: 8px;
+}
+
+.linkedin {
+  display: flex;
+}
+.linkedin > * {
+  margin: 8px;
+}
+
+.facebook {
+  display: flex;
+}
+.facebook > * {
+  margin: 8px;
+}
+.instagram {
+  display: flex;
+}
+.instagram > * {
+  margin: 8px;
+}
+
+.social {
+  margin-bottom: 40px;
+}
+.profile {
+  margin-bottom: 40px;
+}
+.education li {
+  display: list-item;
+  padding-bottom: 20px;
+}
+
+.education {
+  margin-bottom: 40px;
+}
+.skills li {
+  display: list-item;
+  padding-bottom: 10px;
+}
+.experience li {
+  padding-bottom: 10px;
+}
+
+.references * {
+  margin: 5px;
+}
+.languages {
+  height: 50px;
+}
+.interests {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  margin: 5px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.references {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.languages li {
+  display: list-item;
+  float: left;
+  margin-right: 30px;
+}
+/* The actual line being placed before each list item, tweak width and color as appropriate */
+/* li:before {
+  background-color: rgb(0, 0, 0);
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+}
+li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+} */
+/* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
+
+/* Use padding to space things out rather than margins as the line would get broken up otherwise */
